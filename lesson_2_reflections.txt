@@ -5,15 +5,18 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
-	The staging area is used to add files that you want to work with and use commits 		against to begin tracking changes.  Once the files have been added to the staging 		area you can use commit to begin tracking the changes within the repository.  There 		are some files that you may not want to track and some files that you wish to add to 	the staging area that will be committed at the same time.  The level of separation 		gives you more flexibility with respect to how you manage a project and apply 		version control.
+	The staging area is used to add files that you want to work with and use commits 		against to begin tracking changes.  Once the files have been added to the staging 		area you can use commit to begin tracking the changes within the repository.  There 		are some files that you may not want to track and some files that you wish to add to 	the staging area that will be committed at the same time.  The level of separation 		gives you more flexibility with respect to how you manage a project and apply 			version control.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	You could use the "git diff --staged" command to compare the staging directory to 	the latest commit in the repository.
+	You could use the "git diff --staged" command to compare the staging directory to 		the latest commit in the repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	There may be situations when you would like your code to diverge from the master but 		you still need to keep the master intact.  An example where branches might be useful 		is if you wanted to add some experimental code to your project while insuring your 		main(working) code stays intact.  Creating this branch allows you to add changes and 		keep all changes that have been previously made in the master.  Another use for 	branches could be used when multiple developers need to work on the same project.  You 	might create a branch for a bug fix that a particular developer is responsible for 		fixing.  While one developer works on the bug fix branch another devloper can continue 	to add features to the master branch.
+
 
 How do the diagrams help you visualize the branch structure?
 
