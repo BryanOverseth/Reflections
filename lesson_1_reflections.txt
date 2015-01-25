@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    	You can easily identify what has changed between one versions of the file versus 		another	by identifying the differences displayed by diff.  Using diff will compare 		both versions and identify literal differences of between the two files using 			various characters to help you	better identify the changes.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+	The ability to make changes quickly and not worry about breaking code and 			subsequently spend time debugging what broke the code will save the developer a 		substantial amount of time.  Version control also allows the developer the ability 		to easily view and revert to previous versions seamlessly.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+	Pro:  Provides flexibility to save changes as often as the developer feels is 			necessary.  The developer can create versions at a micro level (small incremental 		changes).
+	Con:  The developer needs to be cognizant of the fact that saved changes might not 		happen as quickly as the developer would like thus increasing the probability that 		changes between versions would be macro vs micro (larger code increments).
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	A perfect example when it would be beneficial to track multiple files together would 	be the interdependency that can be found between ant html file and a css file where 		a change in one would likely result in the change to the other.  In this scenario a 		commit that tracks and saves both files at the same time would be beneficial.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	You would use “git log” to find the history of all changes.  Each commit has a 			unique ID.  Next you would use the “git diff” command to compare two commits, which 		will help you evaluate any changes between to the two commits.  It is important to 		note the “+” will indicate additions and the “-“ will indicate deletions.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+	The ability to use version control and make changes incrementally and know that at 		any time you could revert back to previous changes emboldens the developer to test 		code without the fear of breaking code and spending countless hours debugging with 		the intent of getting back to a steady state code base.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	Version control for all projects related to the front-end web developer nano degree.
+
