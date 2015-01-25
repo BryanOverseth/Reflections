@@ -25,7 +25,9 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-	The result of merging two branches together is to combine the recent and historical 	changes of a respective branch with that of the master thus creating a new tip of the 	master branch.  At this point the branch can be deleted due to the fact that all 	changes from the branch and master are now combined into a new tip.  The displayed 	representation represents a logical view of changes within each respective branch and 	where branches could be merged along with any other branches that may remain outside 	of the master. 
+	The result of merging two branches together is to combine the recent and historical 		changes of a respective branch with that of the master thus creating a new tip of the 		master branch.  At this point the branch can be deleted due to the fact that all 		changes from the branch and master are now combined into a new tip.  The displayed 		representation represents a logical view of changes within each respective branch and 		where branches could be merged along with any other branches that may remain outside 		of the master. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Using Git to automatically perform merges helps to simplify the merger process and 	reduce time spent trying to manually merge two branches together.  Git provides many 	visual representations to help the developer understand what is being merged and also 	help to detect potential conflicts.  However, sometimes conflicts cannot be resolved 	by Git in which case the developers who made the respective changes to the same part 	of the code will need to collaborate to ensure the proper change is committed.
