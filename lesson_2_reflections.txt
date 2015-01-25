@@ -20,8 +20,12 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	Diagramming will help the developer understand where code diverges and changes that 		have been made since the branch was created.  Diagramming also show the reachability 		of the branch and will aid when the developer wished to merge branches.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+	The result of merging two branches together is to combine the recent and historical 	changes of a respective branch with that of the master thus creating a new tip of the 	master branch.  At this point the branch can be deleted due to the fact that all 	changes from the branch and master are now combined into a new tip.  The displayed 	representation represents a logical view of changes within each respective branch and 	where branches could be merged along with any other branches that may remain outside 	of the master. 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
