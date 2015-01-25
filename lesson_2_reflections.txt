@@ -15,7 +15,7 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-	There may be situations when you would like your code to diverge from the master but 		you still need to keep the master intact.  An example where branches might be useful 		is if you wanted to add some experimental code to your project while insuring your 		main(working) code stays intact.  Creating this branch allows you to add changes and 		keep all changes that have been previously made in the master.  Another use for 	branches could be used when multiple developers need to work on the same project.  You 	might create a branch for a bug fix that a particular developer is responsible for 		fixing.  While one developer works on the bug fix branch another devloper can continue 	to add features to the master branch.
+	There may be situations when you would like your code to diverge from the master but 		you still need to keep the master intact.  An example where branches might be useful 		is if you wanted to add some experimental code to your project while insuring your 		main(working) code stays intact.  Creating this branch allows you to add changes and 		keep all changes that have been previously made in the master.  Another use for 		branches could be used when multiple developers need to work on the same project.  You 	might create a branch for a bug fix that a particular developer is responsible for 		fixing.  While one developer works on the bug fix branch another devloper can continue 	to add features to the master branch.
 
 
 How do the diagrams help you visualize the branch structure?
