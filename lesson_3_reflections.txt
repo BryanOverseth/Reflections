@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all your work local?
+
+I can think of two important reasons to create a remote repository.  The first reason is to have a backup of projects that is kept off-site.  The second reason would be used for collaboration with other developers with respect to your project.
