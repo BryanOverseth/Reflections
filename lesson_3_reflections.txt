@@ -26,5 +26,4 @@ One way is to you use a common file share repository.  The developers using this
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
-    1
+The reason you would want to create a branch off the master would be to make changes to your code that you do not want to immediately commit to master.  You could then push this branch to git hub and request collaboration from other developers.  Once changes have been agreed upon the branch can eventually be merged into the master. Making changes in the master and pushing and pulling changes from master is easier and requires less time keeping up with changes that others are making.
