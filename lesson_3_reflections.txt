@@ -21,7 +21,7 @@ You want to make sure you have the latest state of the remote branches based on 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+One way is to you use a common file share repository.  The developers using this method could communicate using email or IM with respect to changes that needed to be made.  This form of collaboration is obviously time consuming and clunky.  Using a version control system such as Git\Github is much more elegant solution.  Change history, change communication, commenting and the ability to merge changes within a common platform not only makes developer collaboration easier bit also saves time and reduces the development lifecycle.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
