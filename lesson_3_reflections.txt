@@ -15,7 +15,8 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+You want to make sure you have the latest state of the remote branches based on the last time you push or pulled the branch.  Keeping state information will insure that the correct updates are applied to the remote repository.  The inverse of this will be true when you pull updates from a remote.  Also, maintaining the state information will help resolve conflicts when the remote and local repositories have changes that need to be resolved.
+
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
